@@ -1,2 +1,1 @@
-# Sample-Java-Programs
-Programs written with BlueJ as sample code for class
+This page contains sample Java projects, for use with BlueJ or Greenfoot, used in CS 134.
