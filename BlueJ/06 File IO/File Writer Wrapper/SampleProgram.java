@@ -8,5 +8,7 @@ public class SampleProgram
         out.println( "Hello, world!" );
         out.print( "How are you?" );
         out.println( " I am good! How are you?" );
+        
+        FileOutputter.print( "myfile2.txt", "Hello!" );
     }
 }

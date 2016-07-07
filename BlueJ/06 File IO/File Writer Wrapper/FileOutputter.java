@@ -5,6 +5,30 @@ public class FileOutputter
     private BufferedWriter m_writer;
     private String m_filename;
     
+    public static void print( String filename, String text )
+    {
+        try
+        {
+            File file = new File( filename );
+            BufferedWriter bw = new BufferedWriter(
+                new FileWriter( file.getAbsoluteFile(), true )
+            );
+            
+            bw.write( text );
+            
+            bw.close();
+        }
+        catch( IOException e )
+        {
+            e.printStackTrace();
+        }
+    }
+    
+    public static void println( String filename, String text )
+    {
+        print( filename, text + "\n" );
+    }
+    
     public FileOutputter()
     {
         m_filename = "default.txt";
