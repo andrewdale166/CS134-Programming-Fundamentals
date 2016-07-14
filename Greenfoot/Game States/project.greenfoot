@@ -1,0 +1,18 @@
+#Greenfoot properties
+#Thu Jul 14 02:43:19 CDT 2016
+class.GameScreen.superclass=greenfoot.World
+class.TitleScreen.superclass=greenfoot.World
+mainWindow.width=850
+class.TitleScreen.image=titlescreen.png
+class.Fighter.image=bunny_idle.png
+class.GameScreen.image=background.png
+version=2.8.0
+project.charset=UTF-8
+class.Button.superclass=greenfoot.Actor
+class.Fighter.superclass=greenfoot.Actor
+world.lastInstantiated=TitleScreen
+mainWindow.y=40
+mainWindow.x=40
+class.CharacterSelectScreen.image=bricks3.jpg
+mainWindow.height=600
+class.CharacterSelectScreen.superclass=greenfoot.World
