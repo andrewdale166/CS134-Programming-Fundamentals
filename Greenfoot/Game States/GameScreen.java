@@ -36,7 +36,7 @@ public class GameScreen extends World
         else if ( fighters[0].getHP() <= 0 || fighters[1].getHP() <= 0 )
         {
             showText( "Game Over", getWidth()/2, getHeight()/2 );
-            gameoverCooldown = 100;
+            gameoverCooldown = 500;
         }
     }
     
