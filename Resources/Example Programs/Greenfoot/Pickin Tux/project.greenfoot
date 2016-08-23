@@ -1,0 +1,13 @@
+#Greenfoot properties
+#Thu Jun 16 18:28:36 CDT 2016
+class.Tux.superclass=greenfoot.Actor
+class.MyWorld.image=sand.jpg
+class.Tux.image=tux.png
+class.MyWorld.superclass=greenfoot.World
+project.charset=UTF-8
+version=2.7.1
+class.Enemy.superclass=greenfoot.Actor
+class.Player.superclass=greenfoot.Actor
+world.lastInstantiated=MyWorld
+class.Player.image=boy1.png
+class.Enemy.image=man.png
