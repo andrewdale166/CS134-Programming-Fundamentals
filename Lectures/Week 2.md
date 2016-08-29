@@ -1,10 +1,9 @@
 # Tuesday
 
-## Review: CodePad Lab 0
+## Review: CodePad Lab 1
 
 * For each line of code, what was the result, and why?
 
----
 
 ## Review: Variables and Data Types
 
@@ -21,7 +20,6 @@
 * When wanting to store the result of some math calculation in a variable, which side of the equal sign =
     does the math equation go on?
 
----
 
 ## Software Development Applications & Careers
 
@@ -44,13 +42,61 @@ Make sure to answer the discussion questions in D2L:
 * Software Development Careers
 * Real-world Applications
 
----
+
+## Programming Terminology
+
+Here are some definitions from Wikipedia, but let's redefine
+these in our own words...
+
+### Source Code
+
+> In computing, source code is any collection of computer instructions, (possibly with comments), written using a human-readable computer language, usually as ordinary text.
+
+([Source code / Wikipedia](https://en.wikipedia.org/wiki/Source_code))
+
+### Compile / Compilation
+
+> A compiler is a computer program (or a set of programs) that transforms source code written in a programming language (the source language) into another computer language (the target language), with the latter often having a binary form known as object code.[1] The most common reason for converting source code is to create an executable program.
+
+([Compiler / Wikipedia](https://en.wikipedia.org/wiki/Compiler))
+
+### Object Oriented Programming
+
+> In OOP, computer programs are designed by making them out of objects that interact with one another.
+
+([Object-oriented programming / Wikipedia](https://en.wikipedia.org/wiki/Object-oriented_programming))
+
+### Object
+
+> In computer science, an object can be a variable, a data structure, or a function or a method, and as such, is a location in memory having a value and possibly referenced by an identifier.
+
+> In the class-based object-oriented programming paradigm, "object" refers to a particular instance of a class where the object can be a combination of variables, functions, and data structures.
+
+([Object (computer science)](https://en.wikipedia.org/wiki/Object_%28computer_science%29))
+
+### Class
+
+> In object-oriented programming, a class is an extensible program-code-template for creating objects, providing initial values for state (member variables) and implementations of behavior (member functions or methods).
+
+([Class (computer programming)](https://en.wikipedia.org/wiki/Class_%28computer_programming%29))
+
+### Methods / Functions
+
+> A method (or message) in object-oriented programming (OOP) is a procedure associated with an object.
+
+([Method (computer programming)](https://en.wikipedia.org/wiki/Method_%28computer_programming%29))
+
 
 ## Introduction to Greenfoot
 
-asdfjkl;
+1. Program layout
+    1. Class diagram
+    2. Execution controls
+    3. World
+    
+2. Example program
+    1. Car that moves in a circle
 
----
 
 ## Quiz (1:30 pm)
 
@@ -59,6 +105,8 @@ Take the quiz on D2L that reviews Week 1's content
 ---
 
 # Thursday
+
+## Greenfoot Lab 1: Sunflowers and Butterflies
 
 ---
 
