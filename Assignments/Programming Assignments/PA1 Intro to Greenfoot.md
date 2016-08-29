@@ -206,4 +206,35 @@ should see your new objects pop up:
 Make sure that the functionality works at this point!
 If you have a compile error, you need to **debug it** before moving on!
 
+# Spinning
 
+Next, we're going to change the code for our Actor object, so that
+they will spin while the program is running.
+
+![Screenshot](images/pa1-17.png)
+
+Right-click on your Actor subclass (mine is Seal) and select **Open editor**.
+Again, some code has already been added automatically:
+
+![Screenshot](images/pa1-18.png)
+
+Here, we're interested in the **act()** function.
+
+## public void act()
+
+In this function, we can use **turn** on all versions of our Seal (or whatever
+your actor is). Under the comment "// Add your action code here.", add:
+
+    turn( 5 );
+
+This will turn the actor by 5-degrees each cycle through the game.
+
+![Screenshot](images/pa1-19.png)
+
+## Test
+
+Hit the **compile** button and go back to the main window.
+
+Click on **Run** to make sure that each actor spins.
+
+![Screenshot](images/pa1-20.png)
