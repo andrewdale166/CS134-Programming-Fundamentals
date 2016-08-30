@@ -54,11 +54,17 @@ these in our own words...
 
 ([Source code / Wikipedia](https://en.wikipedia.org/wiki/Source_code))
 
+Hacking?
+Instructions
+Text
+
 ### Compile / Compilation
 
 > A compiler is a computer program (or a set of programs) that transforms source code written in a programming language (the source language) into another computer language (the target language), with the latter often having a binary form known as object code.[1] The most common reason for converting source code is to create an executable program.
 
 ([Compiler / Wikipedia](https://en.wikipedia.org/wiki/Compiler))
+
+Converts source code into executable (.exe) files
 
 ### Object Oriented Programming
 
@@ -85,6 +91,10 @@ these in our own words...
 > A method (or message) in object-oriented programming (OOP) is a procedure associated with an object.
 
 ([Method (computer programming)](https://en.wikipedia.org/wiki/Method_%28computer_programming%29))
+
+* Classes/Objects - Contain variables and functions
+* Methods/Functions - Sets of code, several statements
+* Variables
 
 
 ## Introduction to Greenfoot
