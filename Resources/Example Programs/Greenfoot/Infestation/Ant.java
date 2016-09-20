@@ -66,7 +66,7 @@ public class Ant extends Actor
     
     public void moveFollower()
     {
-        turnTowards( followme.getX(), followme.getY() );
+        turnTowards( Greenfoot.getMouseInfo().getX(), Greenfoot.getMouseInfo().getY() );
         move(speed);
     }
 }
