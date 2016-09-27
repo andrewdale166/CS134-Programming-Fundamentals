@@ -44,7 +44,7 @@ See [PA1](https://github.com/Rachels-Courses/CS134-Programming-Fundamentals/blob
 ### Goal
 
 1. Right-click on the "Actor" class under the **Actor classes** pane. Choose "New subclass..."
-2. Set the **New class name** to "Goak", select an image for the player (in my screenshots, it is a fly.). Hit **Ok**.
+2. Set the **New class name** to "Goal", select an image for the player (in my screenshots, it is a fly.). Hit **Ok**.
 
 ### Obstacle
 
