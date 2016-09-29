@@ -23,10 +23,47 @@ This document also contains reference material (how to use keyboard, mouse,
 collision, etc.) that you can use to implement your features,
 and also an ideas list / outline of how to implement certain game features.
 
+You can also reference sample code from some pre-written Greenfoot games provided to help you make your own game.
+
 ---
 
 # Required Features
 
+## Classes:
+
+* At least two World classes
+  * MenuWorld - Displays the game's name, instructions, and a play button
+  * PlayWorld - The actual gameplay portion of the program.
+
+You can also include more than one World if you want multiple levels or multiple gameplay types (but keep it simple!)
+
+* At least two Character (Actor) classes
+  * One that is moved by the player, either with the mouse or keyboard
+  * One that is moved by AI
+  
+At least one Character should have functionality to handle when it collides with another Character.
+  
+* At least one Button (Actor) class
+
+## Functionality:
+
+### Win / Lose state
+
+Your game should have some criteria to be met in order for the game to be finished. There should be a "Win" state and a "Lose" state. For example, if the score reaches 10, the player might win. If health reaches 0%, the player might lose.
+
+### Button class
+
+The button class should have a graphic that makes it look like a button, and it should also display text based on what kind of function it will execute (example: "Play", "Quit", etc.) - So, the button can use the showText method to draw different text on different buttons.
+
+When clicked, the button should cause something to occur - for example, in the MenuWorld, it might cause the game to begin.
+
+If you want to use multiple buttons, you might store a **String** member variable so that you can tell them apart and do different functions based on each button's name.
+
+### Character classes
+
+The character classes will be able to move around the screen and interact with each other. Characters might include the Player, the NPCs (Non-player Characters), and even Items that you could collect.
+
+**At least one character should have a method to handle collision with a second character.**
 
 ---
 
