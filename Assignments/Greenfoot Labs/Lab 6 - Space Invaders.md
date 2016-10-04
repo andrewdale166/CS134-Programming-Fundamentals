@@ -310,6 +310,16 @@ Then, within the Player's act() method, underneath the checks for left and right
 
 We add a cooldown so that the player cannot shoot an infinite amount of bullets all at once – where is the challenge in that? :)
 
+With the bulletCountdown, we need to also make sure to subtract from the countdown timer
+every cycle of the game.
+
+Add this to the act() method after checking for the space:
+
+	if ( bulletCooldown > 0 )
+	{
+		bulletCooldown--;
+	}
+
 In the Bullet class, we need to add its functionality.
 
 ### Bullet constructor: 
