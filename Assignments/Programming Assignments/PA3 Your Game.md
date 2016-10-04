@@ -183,6 +183,16 @@ Then, you can get the mouse coordinates, as well as what button is clicked.
 
 	int x = mouse.getX();
 	int y = mouse.getY();
+	
+### Was I clicked by the mouse?
+
+You can also just check to see if the current Actor was clicked. This code
+doesn't need the mouse object from above:
+
+	if ( Greenfoot.mouseClicked( this ) )
+	{
+		// The current Actor object was clicked!
+	}
 
 ## Check collision
 
@@ -228,5 +238,12 @@ the World class.
 
 # Game Ideas
 
+## Hunter of Ducks
+
+![Screenshot](images/Hunter of Ducks.png)
+
+## Crafter
+
+## 
 
 ---
