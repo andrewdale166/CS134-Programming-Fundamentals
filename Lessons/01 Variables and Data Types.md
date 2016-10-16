@@ -1,4 +1,4 @@
-[<< Previous: Introduction](00 Introduction.md) | [Next:  Input and Output >>](02 Input and Output.md)
+[<< Previous: Introduction](00 Introduction.md) | [Next: Input and Output >>](02 Input and Output.md)
 
 ---
 

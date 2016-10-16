@@ -1,4 +1,4 @@
-[<< Previous: Introduction](01 Variables and Data Types.md) | [Next: Math Operators >>](01 Variables and Data Types.md)
+[<< Previous: Introduction](01 Variables and Data Types.md) | [Next: Math Operators >>](03 Math Operators.md)
 
 ---
 
