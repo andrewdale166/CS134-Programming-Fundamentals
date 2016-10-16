@@ -235,6 +235,102 @@ import java.util.Scanner;
 
 # Program 3: Quadratic formula
 
----
+Create a new project for this program.
 
-# Program 4: Fraction math
+**Class file: QuadraticProgram**
+
+![Quadratic formula](images/lab1_quadratic.png)
+
+Start off the program with:
+
+import java.util.Scanner;
+
+	public class QuadraticProgram {
+		public static void main(String args[])
+		{
+			Scanner scanner = new Scanner( System.in );
+			
+			// Code
+			
+			scanner.close();
+		}
+	}
+
+Display the name of the program, as well as the format of a polynomial used
+for the quadratic equation:
+
+	System.out.println( "ax^2 + bx + c" );
+	
+Declare three variables: a, b, and c. All of them are doubles.
+
+Ask the user to enter each item. Make sure to prompt the user
+for input, and tell them what they will be inputting.
+
+Declare two new variables: x1 and x2.
+
+For these calculations, we will need Java's sqrt function:
+
+	Math.sqrt( THING )
+	
+Try to calculate x1 and x2 using the quadratic formula written above.
+You'll want to use parenthesis to explicitly specify the order of operations,
+and remember that you can't write numbers like *4ac* in programming,
+you have to put asterisks between each term.
+
+<details>
+	<summary><h2>
+		Mini-solution: Quadratic formula
+	</h2></summary>
+
+	x1 = (-b + Math.sqrt(b*b - 4*a*c))/(2*a);
+	x2 = (-b - Math.sqrt(b*b - 4*a*c))/(2*a);
+
+</details>
+
+After calculating the x1 and x2, display them to the screen with
+the appropriate labels.
+
+## Sample output
+
+![Screenshot](images/lab1_program3.png)
+
+<details>
+	<summary><h2>
+		VIEW SOLUTION
+	</h2></summary>
+
+	import java.util.Scanner;
+
+	public class QuadraticProgram {
+		public static void main(String args[])
+		{
+			Scanner scanner = new Scanner( System.in );
+			
+			System.out.println( "QUADRATIC CALCULATOR" );
+			System.out.println( "ax^2 + bx + c" );
+			
+			double a, b, c;
+			
+			System.out.print( "Enter a: " );
+			a = scanner.nextDouble();
+			
+			System.out.print( "Enter b: " );
+			b = scanner.nextDouble();
+			
+			System.out.print( "Enter c: " );
+			c = scanner.nextDouble();
+			
+			double x1, x2;
+
+			x1 = (-b + Math.sqrt(b*b - 4*a*c))/(2*a);
+			x2 = (-b - Math.sqrt(b*b - 4*a*c))/(2*a);
+			
+			System.out.println( "x1 = " + x1 );
+			System.out.println( "x2 = " + x2 );
+			
+			scanner.close();
+		}
+	}
+
+</details>
+
