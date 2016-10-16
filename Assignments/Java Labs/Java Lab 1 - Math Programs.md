@@ -148,5 +148,93 @@ All of these should be **doubles**.
 
 </details>
 
+---
 
+# Program 2: Area of a circle
 
+Create a new project for this program.
+
+**Class file: CircleAreaProgram**
+
+The formula for the area of a circle is:
+
+*area = π r<sup>2</sup>*
+
+so we will be using the **Math.pow** function that is part of Java in order
+to calculate this equation.
+
+Start out with the base program:
+
+import java.util.Scanner;
+
+public class CircleAreaProgram {
+	public static void main(String args[])
+	{
+		Scanner scanner = new Scanner( System.in );
+		
+		// Code goes here
+		
+		scanner.close();
+	}
+}
+
+**Output:** Using **System.out.println**, display the program's name: "Circle Area Calculator"
+
+**Variable declarations:** Declare three variables, who are all doubles: pi, r, and area.
+
+**Assign:** pi should be assigned the value of 3.14.
+
+**Output:** Ask the user to enter the radius.
+
+**Input:** Get double input and store it in *r*.
+
+**Calculate:** Calculate the area of the circle using Java's Math.pow function.
+
+	RESULT = Math.pow( BASE, EXPONANT );
+	
+	area = pi * Math.pow( r, 2 );
+	
+**Output:** Display the label "Area:", and then display the calculated area of the circle.
+
+## Sample output
+
+![Screenshot of program 1](images/lab1_program2.png)
+
+<details>
+	<summary><h2>
+		VIEW SOLUTION
+	</h2></summary>
+
+	import java.util.Scanner;
+
+	public class CircleAreaProgram {
+		public static void main(String args[])
+		{
+			Scanner scanner = new Scanner( System.in );
+			
+			double pi = 3.14159;
+			double r;
+			double area;
+			
+			System.out.println( "Circle Area Calculator" );
+			
+			System.out.print( "What is the radius? " );
+			r = scanner.nextDouble();
+			
+			area = pi * Math.pow( r, 2 );
+			
+			System.out.println( "Area: " + area );
+			
+			scanner.close();
+		}
+	}
+
+</details>
+
+---
+
+# Program 3: Quadratic formula
+
+---
+
+# Program 4: Fraction math
