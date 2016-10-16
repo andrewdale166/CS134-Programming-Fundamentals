@@ -167,16 +167,16 @@ Start out with the base program:
 
 import java.util.Scanner;
 
-public class CircleAreaProgram {
-	public static void main(String args[])
-	{
-		Scanner scanner = new Scanner( System.in );
-		
-		// Code goes here
-		
-		scanner.close();
+	public class CircleAreaProgram {
+		public static void main(String args[])
+		{
+			Scanner scanner = new Scanner( System.in );
+			
+			// Code goes here
+			
+			scanner.close();
+		}
 	}
-}
 
 **Output:** Using **System.out.println**, display the program's name: "Circle Area Calculator"
 
