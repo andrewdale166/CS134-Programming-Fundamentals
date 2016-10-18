@@ -24,6 +24,55 @@ You can collaborate with another student on this lab. Make sure to put your team
 
 ---
 
+# Review: Creating a BlueJ project
+
+## Create the project
+
+1. Open BlueJ
+2. Go to Project > New Project...
+3. Create a folder for the assignment, then click **Create**.
+
+## Create the class file
+
+Each program will have its own class, such as "AreaProgram".
+
+1. Click on **New Class...**
+2. Set a Class Name
+3. Click **Ok**
+
+It will generate default code, most of which you will erase.
+Right-click on your class program "box" that was created in BlueJ, and
+select **Open Editor**.
+Clear out everything except for the class declaration. For example:
+
+	public class AreaProgram
+	{
+	}
+
+## Create the entry method
+
+Within this new class, you will create a **main** function, which will be the entry point of your program:
+
+	public class MyProgram {
+		public static void main(String[] args)
+		{
+			// Code goes here
+		}
+	}
+	
+This source file ends with **.java** after the class name, and this is the file
+you can use to upload your work.
+
+## Run the program
+
+When you're ready to run your program, go back to the main BlueJ program,
+right-click your class, and select the **main** function.
+
+It will ask for input, and just leave it at the default { }. Click **Ok**.
+
+An output window should pop up with your program.
+
+
 # Review: Creating an Eclipse project
 
 ## Create the project
